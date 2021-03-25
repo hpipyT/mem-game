@@ -1,0 +1,92 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  /* background: slategrey url("https://cdn.glitch.com/6f164392-521f-4ee0-87cc-ff0165249eb3%2FMacro_Plex_4K_Motion_Background_Loop.gif?v=1616353264516") no-repeat fixed center;
+  background-size: cover;*/
+  
+  background-color: #d1a3d0;
+  color: white;
+   
+  }
+
+h1 {
+  font-family: trebuchet-ms, arial, sans-serif;
+}
+
+button{
+  padding: 10px;
+  border-radius: 10px;
+}
+
+
+#gameButtonArea > button {
+  width:200px;
+  height:200px;
+  border-radius: 100%;
+  margin:2px;
+}
+
+#button1 {
+    background: lightgreen;
+}
+
+#button1:active, #button1.lit {
+    background: green;
+}
+
+#button2 {
+    background: purple;
+}
+
+#button2:active, #button2.lit {
+    background:violet;
+}
+
+#button3 {
+    background: lightblue;
+}
+
+#button3:active, #button3.lit {
+    background:blue;
+}
+
+#button4 {
+    background: yellow;
+}
+
+#button4:active, #button4.lit {
+    background:white;
+}
+
+#button5 {
+    background: red;
+}
+
+#button5:active, #button5.lit {
+    background:crimson;
+}
+
+.divcenter {
+  margin: auto;
+  width: 75%;
+}
+
+.textcenter{
+  text-align: center;
+}
+
+.buttoncenter{
+  margin:0 auto;
+  display:block;
+  width:50%;
+}
+
+.hidden {
+  display: none;
+}
+
+.imgbg {
+  
+}
